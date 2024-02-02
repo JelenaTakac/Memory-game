@@ -1,0 +1,144 @@
+/* Treba biti responsivan dizajn */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: linear-gradient(0deg, #fdbb2d, #22c1c3); */
+    background-color: rgb(93, 206, 206);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+h1 {
+    /* background: linear-gradient(0deg, #fdbb2d, #22c1c3); */
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 50px;
+}
+
+#counter {
+    font-size: 18px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* #counter span {
+    border: 1px solid yellow;
+} */
+
+.divCards {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+img {
+    width: 75px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#playGame {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* form {
+    width: 50%;
+    margin: 0 auto;
+} */
+
+input[type = text] {
+    width: 30%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+input[type = text]:focus {
+    outline: none;
+    border: 2px solid green;
+}
+
+::placeholder {
+    color: rgb(175, 175, 175);
+    font-size: 16px;
+} 
+
+input[type = submit] {
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    padding: 10px 40px;
+    text-align: center;
+    border: 0;
+    font-size: 18px;
+}
+
+input[type = submit]:hover {
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+}
+
+.radioBox {
+    padding: 20px;
+}
+
+.radioBox input[type = radio],
+.radioBox label {
+    margin: 5px;
+    font-size: 18px;
+}
+
+#results {
+    margin: 0 auto;
+    /* width: 50%; */
+    /* display: flex;
+    justify-content: flex-end; */
+}
+
+#results h2 {
+    margin-bottom: 20px;
+}
+
+#results button {
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    border: 0;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 18px;
+    color: green;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 100%;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    padding: 10px 20px;
+    background-color: #c2fbd7;;
+    color: green;
+}
+
+table td {
+    text-align: center;
+}
+
+

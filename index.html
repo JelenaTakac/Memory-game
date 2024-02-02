@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+    <h1>Memory game</h1>
+    <h2 id="counter">Time: <span></span></h2>
+
+    <main>
+        <div id="playGame">
+            <form id="playerForm">
+                <input type="text" name="player" id="player" placeholder="Please enter your username">
+                <input type="submit" value="Start" id="startBtn">
+                <div class="radioBox">
+                    <input type="radio" name="category" id="easy" value="easy" checked>
+                    <label for="easy">Easy</label>
+                    <input type="radio" name="category" id="medium" value="medium">
+                    <label for="medium">Medium</label>
+                    <input type="radio" name="category" id="hard" value="hard">
+                    <label for="hard">Hard</label>
+                    <input type="radio" name="category" id="expert" value="expert">
+                    <label for="expert">Expert</label>
+                </div>
+            </form>
+            <div id="cards"></div>
+        </div>
+        <div id="results">
+            <h2>Results:</h2>
+            <button data-name="easy">Easy</button>
+            <button data-name="medium">Medium</button>
+            <button data-name="hard">Hard</button>
+            <button data-name="expert">Expert</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+    <!-- <script src="proba.js"></script> -->
+</body>
+
+</html>
