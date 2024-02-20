@@ -40,8 +40,23 @@
         </div>
     </main>
 
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-firestore.js"></script>
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyC95nIOk-t08DuxT-pFoc3m71laYDfyCxA",
+            authDomain: "itb-js-memory-game.firebaseapp.com",
+            projectId: "itb-js-memory-game",
+            storageBucket: "itb-js-memory-game.appspot.com",
+            messagingSenderId: "560754895134",
+            appId: "1:560754895134:web:0f7776bd51a202ef57c10f"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        let db = firebase.firestore();
+    </script>
     <script src="script.js"></script>
-    <!-- <script src="proba.js"></script> -->
 </body>
 
 </html>
