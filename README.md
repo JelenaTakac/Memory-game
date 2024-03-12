@@ -6,12 +6,13 @@ Welcome to the Memory Game in Vanilla JS, an interactive and challenging game th
 
 - [Overview](#overview)
   - [The setup guide](#the-setup-guide)
-  - [Player Setup](#player-setup)
+  - [Features](#features)
+  <!-- - [Player Setup](#player-setup)
   - [Game Board](#game-board)
   - [Gameplay](#gameplay)
   - [Interaction](#interaction)
   - [End of Game](#end-of-game)
-  - [Best Results Table](#best-results-table)
+  - [Best Results Table](#best-results-table) -->
   - [Links](#links)
 - [Author](#author)
 
@@ -23,34 +24,36 @@ Welcome to the Memory Game in Vanilla JS, an interactive and challenging game th
 - Open the `index.html` file in your preferred web browser
 - Enter your name, choose the difficulty level, and start playing!
 
-### Player Setup
+### Features
+
+- **Player Setup**
 
 - Start the game by entering your name.
 - Choose the difficulty level from easy to expert.
 
-### Game Board
+- **Game Board**
 
 - A dynamically generated game board with a random permutation of cards.
 - Card numbers vary based on the selected difficulty level.
 
-### Gameplay
+- **Gameplay**
 
 - Cards are initially facing down (reverse side).
 - Competitors must find pairs of matching cards in the shortest time possible.
 - Time countdown begins from zero as soon as the game starts.
 - Each new game generates a new random permutation of cards.
 
-### Interaction
+- **Interaction**
 
 - Turn cards by clicking on them to reveal the hidden pictures.
 - Each turn allows the contestant to flip two cards (one at a time).
 
-### End of Game
+- **End of Game**
 
 - Game ends when the contestant successfully uncovers all pairs of cards.
 - Notification appears on the screen, prompting the user to confirm starting a new game.
 
-### Best Results Table
+- **Best Results Table**
 
 - Access to a leaderboard showcasing the best results.
 - Competitors within each difficulty level are ranked by speed (time to complete the game).
